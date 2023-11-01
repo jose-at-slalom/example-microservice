@@ -27,3 +27,7 @@ Then run the image.
 ```
 podman run -it --rm -p 3000:80 --name examplecontainer examplemicroservice
 ```
+
+## Swagger Docs
+
+To view the Swagger docs, after running the app, point your browser to `http://localhost:<PORT>/swagger/`, substituting the PORT for the one in the output.
